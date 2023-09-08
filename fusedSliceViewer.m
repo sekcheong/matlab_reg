@@ -1,6 +1,6 @@
-function fusedSliceViewer(vol1, vol2)
+function fusedSliceViewer(vol1, vol2, name)
 
-    fig = figure('position',[360 500 400 400]);
+    fig = figure('position',[360 500 600 600],'Name',name);
     sz = size(vol1);
     index = int16 (sz(3) / 2);
     
